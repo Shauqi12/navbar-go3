@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+
+}
+.container {
+    border: 1px solid red;
+    background-color: aqua;
+    width: 100%;
+    margin: auto;
+    margin-top: 0;
+    display: inline-block;
+}
+.k1 {
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    display: inline-block;
+    
+}
+.k2 {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    right: 0;
+    top: 0;
+  display: inline-block;
+}
+.k3 {
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    right: 0;
+    top: 0;
+    display: inline-block;
+}
+.k4 {
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    right: 0;
+    top: 0;
+    display: inline-block;
+}
