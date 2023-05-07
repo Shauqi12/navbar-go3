@@ -8,13 +8,23 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container" id="nav-bg">
-        <div class="container">
-            <div class="k1">Navigasi</div>
-            <div class="k2">HOME</div>
-            <div class="k3">ABOUT</div>
-            <div class="k4">LINK</div>
-        </div>
+    <div class="container dropdown" id="nav-bg">
+        <h1>Navbar</h1>
+        <ul class="">
+            <li>Home</li>
+            <li>About</li>
+            <li>
+                <div class="dropdown" style="float:left;">
+                    <button class="dropbtn">Link</button>
+                    <div class="dropdown-content" style="left:0;">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    </div>
+                  </div>
+            </li>
+        </ul>
+        
     </div>
 </body>
 </html>
